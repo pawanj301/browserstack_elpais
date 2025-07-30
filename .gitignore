@@ -2,6 +2,7 @@
 .classpath
 .project
 .settings/
+.metadata/
 
 # Ignore build outputs
 target/
