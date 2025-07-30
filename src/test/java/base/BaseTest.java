@@ -98,6 +98,7 @@ public class BaseTest {
 		bstackOptions.put("userName", BrowserStackConfig.get("browserstack.user"));
 		bstackOptions.put("accessKey", BrowserStackConfig.get("browserstack.key"));
 		bstackOptions.put("sessionName", "Test on " + device);
+		bstackOptions.put("buildName", "Run - " + System.currentTimeMillis());
 
 		// Attach bstack:options to W3C capabilities
 		capabilities.setCapability("bstack:options", bstackOptions);
