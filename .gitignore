@@ -1,0 +1,33 @@
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore build outputs
+target/
+bin/
+
+# Ignore IDEs (optional)
+.idea/
+*.iml
+.vscode/
+
+# Ignore logs and reports
+*.log
+test-output/
+allure-results/
+allure-report/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore system swap files
+*.swp
+
+# Ignore environment/config files
+.env
+.env.local
+browserstack.properties
+*.properties.local
+rapid_translation_api.properties

@@ -1,0 +1,37 @@
+<suite name="Hybrid Test Suite" parallel="tests" thread-count="5">
+    <test name="Chrome Test">
+        <parameter name="device" value="desktop-chrome"/>
+        <parameter name="browserstack" value="true"/>
+        <classes>
+            <class name="tests.ELPaisWorkflowTest"/>
+        </classes>
+    </test>
+    <test name="Firefox Test">
+        <parameter name="device" value="desktop-firefox"/>
+        <parameter name="browserstack" value="true"/>
+        <classes>
+            <class name="tests.ELPaisWorkflowTest"/>
+        </classes>
+    </test>
+    <test name="Safari Mac Test">
+        <parameter name="device" value="desktop-safari"/>
+        <parameter name="browserstack" value="true"/>
+        <classes>
+            <class name="tests.ELPaisWorkflowTest"/>
+        </classes>
+    </test>
+    <test name="Android Test">
+        <parameter name="device" value="mobile-android"/>
+        <parameter name="browserstack" value="true"/>
+        <classes>
+            <class name="tests.ELPaisWorkflowTest"/>
+        </classes>
+    </test>
+    <test name="iOS Test">
+        <parameter name="device" value="mobile-ios"/>
+        <parameter name="browserstack" value="true"/>
+        <classes>
+            <class name="tests.ELPaisWorkflowTest"/>
+        </classes>
+    </test>
+</suite>

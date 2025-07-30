@@ -1,0 +1,9 @@
+<suite name="Chrome Test Suite">
+    <test name="Chrome Test">
+        <parameter name="device" value="desktop-chrome"/>
+        <parameter name="browserstack" value="false"/>
+        <classes>
+            <class name="tests.ELPaisWorkflowTest"/>
+        </classes>
+    </test>
+</suite>
