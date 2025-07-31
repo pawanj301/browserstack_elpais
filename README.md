@@ -51,11 +51,11 @@ A scalable TestNG-based automation framework built to perform both **UI and API 
 | Language      | Java                      |
 
 # Steps to Run
-Run from cmdLine
+- Run from cmdLine
   - git clone repo
   - cd BrowserStackTestProject
   - mvn test -DsuiteXmlFile=browserstack_test_suite.xml
-Run from Eclipse IDE
+- Run from Eclipse IDE
   - Right click on browserstack_test_suite.xml
   - Run As -> TestNG suite
 
